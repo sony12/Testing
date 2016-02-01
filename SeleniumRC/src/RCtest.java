@@ -11,6 +11,7 @@ public class RCtest {
 	 //Selenium 
 		//selenium=new DefaultSelenium("localhost",4444,"*firefox*","http://w3schools.com");
 		WebDriver driver=new FirefoxDriver();
+		driver.get("http://www.google.com");
 
 	}
 
